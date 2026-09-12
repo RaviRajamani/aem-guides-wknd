@@ -1,0 +1,6 @@
+<div class="wknd-mycomponent">
+  <h2 data-sly-test="${properties.title}">${properties.title @ context='text'}</h2>
+  <p data-sly-test="${properties.description}">${properties.description @ context='text'}</p>
+  <!-- If Sling Model is present, use data-sly-use to adapt -->
+  <!-- Example: data-sly-use.model="com.adobe.aem.guides.wknd.components.mycomponent.MyComponentModel" -->
+</div>
